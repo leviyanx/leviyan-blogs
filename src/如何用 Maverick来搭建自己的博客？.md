@@ -1,9 +1,9 @@
 ---
-layout:post
-title:我是如何用 Maverick来搭建自己的博客？
-slug:how-to-build-my-blog-with-Maverick
-date:2021-02-04 23:13:55
-status:publish
+layout: post
+title: 我是如何用 Maverick来搭建自己的博客？
+slug: how-to-build-my-blog-with-Maverick
+date: 2021-02-04 23:13:55
+status: publish
 categories:
 - wiki
 tags:
@@ -163,6 +163,21 @@ git submodule add -b latest https://github.com/AlanDecode/Maverick-Theme-Galileo
   - `external_links`
   - `nav`
   - `social_links`
+
+
+
+写文章的注意事项
+
+- 支持的格式是`markdown`。
+- 在文章的首部位置，需要写上文章的元数据，必须要填的有如下
+  - layout
+  - title
+  - slug（文章的链接）
+  - date
+
+- 元数据使用的数据格式是YAML，注意使用规则——空格之类的。
+
+- 更多详细的要求，看[这里](https://github.com/AlanDecode/Maverick)。
 
 
 
