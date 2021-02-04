@@ -1,8 +1,99 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><id>/leviyan-blogs/</id><title>leviyan的个人博客</title><updated>2021-02-04T15:22:02.512487+08:06</updated><author><name>熊猫小A</name><email>hi@imalan.cn</email></author><link href="/leviyan-blogs/" rel="alternate"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>/leviyan-blogs/logo.png</logo><subtitle>只坚持一种正义。我的正义。</subtitle><entry><id>/leviyan-blogs/archives/title/</id><title>Git</title><updated>2021-02-04T15:22:02.512547+00:00</updated><content>&lt;blockquote&gt;
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><id>/leviyan-blogs/</id><title>树下躲雨要撑伞</title><updated>2021-02-04T15:46:45.649085+08:06</updated><author><name>树下躲雨要撑伞</name><email>leviyanx@gmail.com</email></author><link href="/leviyan-blogs/" rel="alternate"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>/leviyan-blogs/logo.png</logo><subtitle>一个现实的理想主义者</subtitle><entry><id>/leviyan-blogs/archives/Git/</id><title>Git</title><updated>2021-02-04T15:46:45.649254+00:00</updated><content>&lt;blockquote&gt;
 &lt;p&gt;Warning: This article is not completed.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h2&gt;often used&lt;/h2&gt;
 &lt;h3&gt;special use&lt;/h3&gt;
 &lt;p&gt;cancel tracking a file
 &lt;code&gt;git rm -r --cached file&lt;/code&gt;, not delete local file
-&lt;code&gt;git rm -r -f&lt;/code&gt;, delete local file&lt;/p&gt;</content><link href="/leviyan-blogs/archives/title/" rel="alternate"/><published>2020-06-10T18:54:18+08:06</published></entry></feed>
+&lt;code&gt;git rm -r -f&lt;/code&gt;, delete local file&lt;/p&gt;</content><link href="/leviyan-blogs/archives/Git/" rel="alternate"/><published>2020-06-10T18:54:18+08:06</published></entry><entry><id>/leviyan-blogs/archives/how-to-build-my-blog-with-Maverick/</id><title>我是如何用 Maverick来搭建自己的博客？</title><updated>2021-02-04T15:46:45.649182+00:00</updated><content>&lt;h1&gt;我是如何用 Maverick来搭建自己的博客？&lt;/h1&gt;
+&lt;p&gt;参考文章&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://sspai.com/post/58013"&gt;用 GitHub 搭建静态博客太繁琐？用这个小工具实现「傻瓜式」发布&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/AlanDecode/Blog-With-GitHub-Boilerplate"&gt;Blog-With-GitHub-Boilerplate&lt;/a&gt;（这是博客文章《完全用 GitHub 写博客》所提出流程的示例仓库。）&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/AlanDecode/Maverick"&gt;Maverick&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;默认都是在master（后面改名为source）分支下操作。&lt;/p&gt;&lt;h2&gt;搭建过程&lt;/h2&gt;
+&lt;p&gt;准备好文件/文件夹&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;.github（先用复制的，后期自己改）&lt;/li&gt;
+&lt;li&gt;assets&lt;/li&gt;
+&lt;li&gt;src（这里是放博客的，请准备至少一篇博客（md格式），放在这里）&lt;ul&gt;
+&lt;li&gt;images&lt;/li&gt;
+&lt;li&gt;static&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;config.py（先用复制的，后期自己修改）&lt;/li&gt;
+&lt;li&gt;Makefile（先用复制的，后期自己修改）&lt;/li&gt;
+&lt;li&gt;README.md&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;修改master分支名&lt;/p&gt;&lt;p&gt;1.在github修改master分支名为source&lt;/p&gt;&lt;p&gt;2.在本地执行以下操作&lt;/p&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git branch -m master &lt;span class="nb"&gt;source&lt;/span&gt;
+git fetch origin
+git branch -u origin/source &lt;span class="nb"&gt;source&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;操作cache分支&lt;/p&gt;&lt;p&gt;1.创建cache分支。&lt;/p&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git branch cache
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;2.在cache分支下创建文件&lt;code&gt;sizeinfo.json&lt;/code&gt;。&lt;/p&gt;&lt;p&gt;3.把分支提交到github&lt;/p&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;# 此时处于cache分支&lt;/span&gt;
+git push origin HEAD -u
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;操作gh-pages分支（gh-pages分支是用来展示的）&lt;/p&gt;&lt;p&gt;1.创建gh-pages分支，并提交到github&lt;/p&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git branch gh-pages
+git checkout gh-pages
+
+&lt;span class="c1"&gt;# 可以修改一些文件，并提交commit&lt;/span&gt;
+
+git push origin HEAD -u
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;2.在github，进入仓库&lt;code&gt;settings&lt;/code&gt;，在&lt;code&gt;Github Pages&lt;/code&gt;选项下把&lt;code&gt;Source&lt;/code&gt;换成gh-pages分支。&lt;/p&gt;&lt;p&gt;准备一个token，并为这个仓库添加token&lt;/p&gt;&lt;p&gt;准备token的过程省略，现在假设已经得到一个token。&lt;/p&gt;&lt;p&gt;1.进入&lt;code&gt;settings&lt;/code&gt;-&lt;code&gt;Secrets&lt;/code&gt;，选择&lt;code&gt;New repository secret&lt;/code&gt;，创建一个secret。&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;Name填&lt;code&gt;PERSONAL_TOKEN&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;Value填得到的token。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2.选择添加。&lt;/p&gt;&lt;p&gt;使用Maverick和Galileo（Maverick的一个主题）&lt;/p&gt;&lt;p&gt;1.创建一个文件&lt;code&gt;.gitmodules&lt;/code&gt;，不填内容。&lt;/p&gt;&lt;p&gt;2.执行命令&lt;/p&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;#现在在source分支，如果不是请切换到source&lt;/span&gt;
+
+&lt;span class="c1"&gt;# 添加子模块——Maverick&lt;/span&gt;
+git submodule add https://github.com/AlanDecode/Maverick.git
+
+&lt;span class="c1"&gt;# 添加子模块——Galileo主题的latest分支&lt;/span&gt;
+git submodule add -b latest https://github.com/AlanDecode/Maverick-Theme-Galileo.git ./Galileo
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;3.提交到github。&lt;/p&gt;&lt;p&gt;自定义配置来适配自己的博客&lt;/p&gt;&lt;p&gt;1.编辑&lt;code&gt;conf.py&lt;/code&gt;，修改以下内容（只挑出现在最必要改的）&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;site_prefix&lt;/code&gt;：改成自己博客的名字&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;至此博客已经可以正常运行了，可以进入网址&lt;code&gt;https://用户名.github.io/仓库名称/&lt;/code&gt;查看是否成功。&lt;/p&gt;&lt;hr /&gt;
+&lt;h2&gt;自定义步骤&lt;/h2&gt;
+&lt;p&gt;修改博客的一些内容&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;conf.py&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;template&lt;/code&gt;：可以切换主题&lt;ul&gt;
+&lt;li&gt;可选的主题有：Galileo、&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;site_name&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;site_logo&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;要求&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;site_build_date&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;author&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;email&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;author_homepage&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;description&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;key_words&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;external_links&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;nav&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;social_links&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;写文章的注意事项&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;支持的格式是&lt;code&gt;markdown&lt;/code&gt;。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在文章的首部位置，需要写上文章的元数据，必须要填的有如下&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;layout&lt;/li&gt;
+&lt;li&gt;title&lt;/li&gt;
+&lt;li&gt;slug（文章的链接）&lt;/li&gt;
+&lt;li&gt;date&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;元数据使用的数据格式是YAML，注意使用规则——空格之类的。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;更多详细的要求，看&lt;a href="https://github.com/AlanDecode/Maverick"&gt;这里&lt;/a&gt;。&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;自动化上传博客流程&lt;/p&gt;&lt;p&gt;复制两个文件&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;update_site.bat（windows下使用）&lt;/li&gt;
+&lt;li&gt;update_site.sh（linux/macos下使用）&lt;/li&gt;
+&lt;/ul&gt;
+</content><link href="/leviyan-blogs/archives/how-to-build-my-blog-with-Maverick/" rel="alternate"/><published>2021-02-04T23:13:55+08:06</published></entry></feed>
