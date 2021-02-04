@@ -1,7 +1,7 @@
 ---
 layout:post
 title:我是如何用 Maverick来搭建自己的博客？
-slug:how-to-build-my-blog-with-Maverickuijm
+slug:how-to-build-my-blog-with-Maverick
 date:2021-02-04 23:13:55
 status:publish
 categories:
