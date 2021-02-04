@@ -148,7 +148,21 @@ git submodule add -b latest https://github.com/AlanDecode/Maverick-Theme-Galileo
 
 修改博客的一些内容
 
-
+- `conf.py`
+  - `template`：可以切换主题
+    - 可选的主题有：Galileo、
+  - `site_name`
+  - `site_logo`
+    - 要求
+  - `site_build_date`
+  - `author`
+  - `email`
+  - `author_homepage`
+  - `description`
+  - `key_words`
+  - `external_links`
+  - `nav`
+  - `social_links`
 
 
 
