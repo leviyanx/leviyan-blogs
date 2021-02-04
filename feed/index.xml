@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>leviyan的个人博客</title><link>/leviyan-blogs-test/</link><description>只坚持一种正义。我的正义。</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>/leviyan-blogs-test/logo.png</url><title>leviyan的个人博客</title><link>/leviyan-blogs-test/</link></image><language>zh-CN</language><lastBuildDate>Thu, 04 Feb 2021 14:44:37 +0806</lastBuildDate><pubDate>Thu, 04 Feb 2021 14:44:37 +0806</pubDate><item><title>Git</title><link>/leviyan-blogs-test/archives/title/</link><description>&lt;blockquote&gt;
+&lt;p&gt;Warning: This article is not completed.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2&gt;often used&lt;/h2&gt;
+&lt;h3&gt;special use&lt;/h3&gt;
+&lt;p&gt;cancel tracking a file
+&lt;code&gt;git rm -r --cached file&lt;/code&gt;, not delete local file
+&lt;code&gt;git rm -r -f&lt;/code&gt;, delete local file&lt;/p&gt;</description><author>hi@imalan.cn</author><guid isPermaLink="true">/leviyan-blogs-test/archives/title/</guid><pubDate>Wed, 10 Jun 2020 18:54:18 +0806</pubDate></item></channel></rss>
