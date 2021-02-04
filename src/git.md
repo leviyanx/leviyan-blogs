@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Git
-slug: title
+slug: Git
 date: 2020-06-10 18:54:18
 status: publish
 updated: 2020-07-13 11:28:47
