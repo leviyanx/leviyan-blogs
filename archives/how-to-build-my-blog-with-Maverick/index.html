@@ -19,22 +19,22 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "/leviyan-blogs/0afaaf63481e7336cc3d5dde104703ff.json"
+            api: "/leviyan-blogs/79505906d7d8367344047f12d3f4cfc3.json"
         }
     </script>
     
 <title>我是如何用 Maverick来搭建自己的博客？ - 树下躲雨要撑伞</title>
 <meta name="author" content="" />
-<meta name="description" content="我是如何用 Maverick来搭建自己的博客？" />
+<meta name="description" content="参考文章" />
 <meta property="og:title" content="我是如何用 Maverick来搭建自己的博客？ - 树下躲雨要撑伞" />
-<meta property="og:description" content="我是如何用 Maverick来搭建自己的博客？" />
+<meta property="og:description" content="参考文章" />
 <meta property="og:site_name" content="树下躲雨要撑伞" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/leviyan-blogs/archives/how-to-build-my-blog-with-Maverick/" />
 <meta property="og:image" content="" />
 <meta property="article:published_time" content="2021-02-04T23:13:55-00.00" />
 <meta name="twitter:title" content="我是如何用 Maverick来搭建自己的博客？ - 树下躲雨要撑伞" />
-<meta name="twitter:description" content="我是如何用 Maverick来搭建自己的博客？" />
+<meta name="twitter:description" content="参考文章" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:image" content="" />
 
@@ -80,8 +80,7 @@
                 
             </span>
             <div class="ga-content_body">
-                <h1>我是如何用 Maverick来搭建自己的博客？</h1>
-<p>参考文章</p><ul>
+                <p>参考文章</p><ul>
 <li><a href="https://sspai.com/post/58013">用 GitHub 搭建静态博客太繁琐？用这个小工具实现「傻瓜式」发布</a></li>
 <li><a href="https://github.com/AlanDecode/Blog-With-GitHub-Boilerplate">Blog-With-GitHub-Boilerplate</a>（这是博客文章《完全用 GitHub 写博客》所提出流程的示例仓库。）</li>
 <li><a href="https://github.com/AlanDecode/Maverick">Maverick</a></li>
@@ -99,15 +98,18 @@
 <li>Makefile（先用复制的，后期自己修改）</li>
 <li>README.md</li>
 </ul>
+<hr />
 <p>修改master分支名</p><p>1.在github修改master分支名为source</p><p>2.在本地执行以下操作</p><div class="highlight"><pre><span></span>git branch -m master <span class="nb">source</span>
 git fetch origin
 git branch -u origin/source <span class="nb">source</span>
 </pre></div>
+<hr />
 <p>操作cache分支</p><p>1.创建cache分支。</p><div class="highlight"><pre><span></span>git branch cache
 </pre></div>
 <p>2.在cache分支下创建文件<code>sizeinfo.json</code>。</p><p>3.把分支提交到github</p><div class="highlight"><pre><span></span><span class="c1"># 此时处于cache分支</span>
 git push origin HEAD -u
 </pre></div>
+<hr />
 <p>操作gh-pages分支（gh-pages分支是用来展示的）</p><p>1.创建gh-pages分支，并提交到github</p><div class="highlight"><pre><span></span>git branch gh-pages
 git checkout gh-pages
 
@@ -115,11 +117,13 @@ git checkout gh-pages
 
 git push origin HEAD -u
 </pre></div>
-<p>2.在github，进入仓库<code>settings</code>，在<code>Github Pages</code>选项下把<code>Source</code>换成gh-pages分支。</p><p>准备一个token，并为这个仓库添加token</p><p>准备token的过程省略，现在假设已经得到一个token。</p><p>1.进入<code>settings</code>-<code>Secrets</code>，选择<code>New repository secret</code>，创建一个secret。</p><ul>
+<p>2.在github，进入仓库<code>settings</code>，在<code>Github Pages</code>选项下把<code>Source</code>换成gh-pages分支。</p><hr />
+<p>准备一个token，并为这个仓库添加token</p><p>准备token的过程省略，现在假设已经得到一个token。</p><p>1.进入<code>settings</code>-<code>Secrets</code>，选择<code>New repository secret</code>，创建一个secret。</p><ul>
 <li>Name填<code>PERSONAL_TOKEN</code>。</li>
 <li>Value填得到的token。</li>
 </ul>
-<p>2.选择添加。</p><p>使用Maverick和Galileo（Maverick的一个主题）</p><p>1.创建一个文件<code>.gitmodules</code>，不填内容。</p><p>2.执行命令</p><div class="highlight"><pre><span></span><span class="c1">#现在在source分支，如果不是请切换到source</span>
+<p>2.选择添加。</p><hr />
+<p>使用Maverick和Galileo（Maverick的一个主题）</p><p>1.创建一个文件<code>.gitmodules</code>，不填内容。</p><p>2.执行命令</p><div class="highlight"><pre><span></span><span class="c1">#现在在source分支，如果不是请切换到source</span>
 
 <span class="c1"># 添加子模块——Maverick</span>
 git submodule add https://github.com/AlanDecode/Maverick.git
@@ -127,12 +131,17 @@ git submodule add https://github.com/AlanDecode/Maverick.git
 <span class="c1"># 添加子模块——Galileo主题的latest分支</span>
 git submodule add -b latest https://github.com/AlanDecode/Maverick-Theme-Galileo.git ./Galileo
 </pre></div>
-<p>3.提交到github。</p><p>自定义配置来适配自己的博客</p><p>1.编辑<code>conf.py</code>，修改以下内容（只挑出现在最必要改的）</p><ul>
+<p>3.提交到github。</p><hr />
+<p>自定义配置来适配自己的博客</p><p>1.编辑<code>conf.py</code>，修改以下内容（只挑出现在最必要改的）</p><ul>
 <li><code>site_prefix</code>：改成自己博客的名字</li>
 </ul>
-<p>至此博客已经可以正常运行了，可以进入网址<code>https://用户名.github.io/仓库名称/</code>查看是否成功。</p><hr />
-<h2>自定义步骤</h2>
-<p>修改博客的一些内容</p><ul>
+<hr />
+<p>至此博客已经可以正常运行了，可以进入网址<code>https://用户名.github.io/仓库名称/</code>查看是否成功。</p><h2>自定义步骤</h2>
+<p>自动化上传博客流程</p><p>复制两个文件</p><ul>
+<li>update_site.bat（windows下使用）</li>
+<li>update_site.sh（linux/macos下使用）</li>
+</ul>
+<p>修改博客的一些信息/配置</p><ul>
 <li><code>conf.py</code><ul>
 <li><code>template</code>：可以切换主题<ul>
 <li>可选的主题有：Galileo、</li>
@@ -155,6 +164,7 @@ git submodule add -b latest https://github.com/AlanDecode/Maverick-Theme-Galileo
 </ul>
 </li>
 </ul>
+<hr />
 <p>写文章的注意事项</p><ul>
 <li><p>支持的格式是<code>markdown</code>。</p></li>
 <li><p>在文章的首部位置，需要写上文章的元数据，必须要填的有如下</p><ul>
@@ -167,10 +177,7 @@ git submodule add -b latest https://github.com/AlanDecode/Maverick-Theme-Galileo
 <li><p>元数据使用的数据格式是YAML，注意使用规则——空格之类的。</p></li>
 <li><p>更多详细的要求，看<a href="https://github.com/AlanDecode/Maverick">这里</a>。</p></li>
 </ul>
-<p>自动化上传博客流程</p><p>复制两个文件</p><ul>
-<li>update_site.bat（windows下使用）</li>
-<li>update_site.sh（linux/macos下使用）</li>
-</ul>
+<hr />
 
             </div>
         </article>
