@@ -3,7 +3,7 @@ layout: post
 title: Git
 slug: Git
 date: 2020-06-10 18:54:18
-status: publish
+status: draft
 updated: 2020-07-13 11:28:47
 categories:
 - tutorials

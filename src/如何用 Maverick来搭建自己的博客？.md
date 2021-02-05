@@ -159,6 +159,8 @@ git submodule add -b latest https://github.com/AlanDecode/Maverick-Theme-Galileo
 - update_site.bat（windows下使用）
 - update_site.sh（linux/macos下使用）
 
+---
+
 
 
 修改博客的一些信息/配置
@@ -195,10 +197,4 @@ git submodule add -b latest https://github.com/AlanDecode/Maverick-Theme-Galileo
 - 元数据使用的数据格式是YAML，注意使用规则——空格之类的。
 
 - 更多详细的要求，看[这里](https://github.com/AlanDecode/Maverick)。
-
----
-
-
-
-
 
