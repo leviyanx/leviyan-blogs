@@ -5,10 +5,10 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	
 
 <url>
-    <loc>/leviyan-blogs/principles-of-communicating-with-me/</loc>
+    <loc>/leviyan-blogs/archives/principles-of-communicating-with-me/</loc>
     <lastmod>2021-02-16</lastmod>
     <changefreq>always</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
 </url>
 
 <url>
