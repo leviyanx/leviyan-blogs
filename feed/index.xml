@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>树下躲雨要撑伞</title><link>/leviyan-blogs/</link><description>一个现实的理想主义者</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>/leviyan-blogs/logo.png</url><title>树下躲雨要撑伞</title><link>/leviyan-blogs/</link></image><language>zh-CN</language><lastBuildDate>Thu, 25 Feb 2021 12:46:14 +0806</lastBuildDate><pubDate>Thu, 25 Feb 2021 12:46:14 +0806</pubDate><item><title>我是如何用 Maverick来搭建自己的博客？</title><link>/leviyan-blogs/archives/how-to-build-my-blog-with-Maverick/</link><description>&lt;p&gt;最近一次的更新日期：2021-02-16 20:42:10&lt;/p&gt;&lt;!--more--&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>树下躲雨要撑伞</title><link>/leviyan-blogs/</link><description>一个现实的理想主义者</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>/leviyan-blogs/logo.png</url><title>树下躲雨要撑伞</title><link>/leviyan-blogs/</link></image><language>zh-CN</language><lastBuildDate>Sun, 28 Mar 2021 09:18:05 +0806</lastBuildDate><pubDate>Sun, 28 Mar 2021 09:18:05 +0806</pubDate><item><title>我是如何用 Maverick来搭建自己的博客？</title><link>/leviyan-blogs/archives/how-to-build-my-blog-with-Maverick/</link><description>&lt;p&gt;最近一次的更新日期：2021-02-16 20:42:10&lt;/p&gt;&lt;!--more--&gt;
 &lt;p&gt;参考文章&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href="https://sspai.com/post/58013"&gt;用 GitHub 搭建静态博客太繁琐？用这个小工具实现「傻瓜式」发布&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/AlanDecode/Blog-With-GitHub-Boilerplate"&gt;Blog-With-GitHub-Boilerplate&lt;/a&gt;（这是博客文章《完全用 GitHub 写博客》所提出流程的示例仓库。）&lt;/li&gt;
@@ -98,7 +98,7 @@ git submodule add -b latest https://github.com/AlanDecode/Maverick-Theme-Galileo
 &lt;li&gt;&lt;p&gt;元数据使用的数据格式是YAML，注意使用规则——空格之类的。&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;更多详细的要求，看&lt;a href="https://github.com/AlanDecode/Maverick"&gt;这里&lt;/a&gt;。&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description><author>leviyanx@gmail.com</author><guid isPermaLink="true">/leviyan-blogs/archives/how-to-build-my-blog-with-Maverick/</guid><pubDate>Thu, 04 Feb 2021 23:13:55 +0806</pubDate></item><item><title>与我交流的原则</title><link>/leviyan-blogs/archives/principles-of-communicating-with-me/</link><description>&lt;p&gt;最近一次的更新日期：2021-02-25 20:45:24&lt;/p&gt;&lt;!--more--&gt;
+</description><author>leviyanx@gmail.com</author><guid isPermaLink="true">/leviyan-blogs/archives/how-to-build-my-blog-with-Maverick/</guid><pubDate>Thu, 04 Feb 2021 23:13:55 +0806</pubDate></item><item><title>与我交流的原则</title><link>/leviyan-blogs/archives/principles-of-communicating-with-me/</link><description>&lt;p&gt;最近一次的更新日期：2021-03-28 17:12:00&lt;/p&gt;&lt;!--more--&gt;
 &lt;p&gt;如果我对原则的表达中有疏漏，十分欢迎你告知我。&lt;/p&gt;&lt;hr /&gt;
 &lt;h1&gt;哪些人需要遵守这些原则&lt;/h1&gt;
 &lt;ul&gt;
@@ -139,4 +139,6 @@ git submodule add -b latest https://github.com/AlanDecode/Maverick-Theme-Galileo
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
+&lt;hr /&gt;
+&lt;p&gt;（附）我&lt;strong&gt;讨厌&lt;/strong&gt;（hate）烟味，但是我不会把“禁止在我面前抽烟”这条加上去——它的限定条件过多，但是我&lt;strong&gt;讨厌&lt;/strong&gt;（hate）烟味。（也许未来会加）&lt;/p&gt;&lt;hr /&gt;
 </description><author>leviyanx@gmail.com</author><guid isPermaLink="true">/leviyan-blogs/archives/principles-of-communicating-with-me/</guid><pubDate>Tue, 16 Feb 2021 20:16:38 +0806</pubDate></item></channel></rss>
