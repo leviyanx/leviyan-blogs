@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>树下躲雨要撑伞</title><link>/leviyan-blogs/</link><description>一个现实的理想主义者</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>/leviyan-blogs/logo.png</url><title>树下躲雨要撑伞</title><link>/leviyan-blogs/</link></image><language>zh-CN</language><lastBuildDate>Sat, 10 Apr 2021 06:42:57 +0806</lastBuildDate><pubDate>Sat, 10 Apr 2021 06:42:57 +0806</pubDate><item><title>我是如何用 Maverick来搭建自己的博客？</title><link>/leviyan-blogs/archives/how-to-build-my-blog-with-Maverick/</link><description>&lt;p&gt;最近一次的更新日期：2021-02-16 20:42:10&lt;/p&gt;&lt;!--more--&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>树下躲雨要撑伞</title><link>/leviyan-blogs/</link><description>一个现实的理想主义者</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>/leviyan-blogs/logo.png</url><title>树下躲雨要撑伞</title><link>/leviyan-blogs/</link></image><language>zh-CN</language><lastBuildDate>Sat, 10 Apr 2021 06:49:01 +0806</lastBuildDate><pubDate>Sat, 10 Apr 2021 06:49:01 +0806</pubDate><item><title>我是如何用 Maverick来搭建自己的博客？</title><link>/leviyan-blogs/archives/how-to-build-my-blog-with-Maverick/</link><description>&lt;p&gt;最近一次的更新日期：2021-02-16 20:42:10&lt;/p&gt;&lt;!--more--&gt;
 &lt;p&gt;参考文章&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href="https://sspai.com/post/58013"&gt;用 GitHub 搭建静态博客太繁琐？用这个小工具实现「傻瓜式」发布&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/AlanDecode/Blog-With-GitHub-Boilerplate"&gt;Blog-With-GitHub-Boilerplate&lt;/a&gt;（这是博客文章《完全用 GitHub 写博客》所提出流程的示例仓库。）&lt;/li&gt;
@@ -119,7 +119,7 @@ git submodule add -b latest https://github.com/AlanDecode/Maverick-Theme-Galileo
 &lt;h1&gt;违反这些原则的后果是什么&lt;/h1&gt;
 &lt;p&gt;自然是和交流有关。我会在&lt;strong&gt;空间和时间&lt;/strong&gt;上远离违反这些规则的人，距离为保证对方能够遵守这个原则的距离。&lt;/p&gt;&lt;h1&gt;名词说明&lt;/h1&gt;
 &lt;p&gt;隔离Ⅰ期：现实见面的次数限定为 1次/年。&lt;/p&gt;&lt;p&gt;隔离Ⅱ期：现实见面的次数限定为 1次/3年。&lt;/p&gt;&lt;p&gt;隔离Ⅲ期：现实见面的次数限定为 1次/10年。&lt;/p&gt;&lt;h1&gt;原则&lt;/h1&gt;
-&lt;p&gt;原则按照&lt;strong&gt;重要程度&lt;/strong&gt;排序（重要的原则在前）。&lt;/p&gt;&lt;ol&gt;
+&lt;p&gt;原则按照&lt;strong&gt;重要程度&lt;/strong&gt;排序（重要的原则在前）。原则不对不知者生效。&lt;/p&gt;&lt;ol&gt;
 &lt;li&gt;&lt;p&gt;禁在能让我接触到烟味的距离范围内抽烟。&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;次数限定：一次。&lt;ul&gt;
 &lt;li&gt;超过一次，进入隔离Ⅰ期。&lt;/li&gt;
@@ -130,6 +130,7 @@ git submodule add -b latest https://github.com/AlanDecode/Maverick-Theme-Galileo
 &lt;li&gt;无。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;另外说明&lt;/strong&gt;：这一条只影响现实空间的交流，不影响虚拟空间的交流。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;禁肢体暴力。&lt;/p&gt;&lt;ul&gt;
@@ -150,6 +151,7 @@ git submodule add -b latest https://github.com/AlanDecode/Maverick-Theme-Galileo
 &lt;li&gt;...&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;另外说明&lt;/strong&gt;：这一条只影响现实空间的交流，不影响虚拟空间的交流。&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;禁无意/有意/恶意打扰我睡觉。（开玩笑也属于恶意）&lt;/p&gt;&lt;ul&gt;
