@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>树下躲雨要撑伞</title><link>/leviyan-blogs/</link><description>一个现实的理想主义者</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>/leviyan-blogs/logo.png</url><title>树下躲雨要撑伞</title><link>/leviyan-blogs/</link></image><language>zh-CN</language><lastBuildDate>Sat, 10 Apr 2021 06:34:53 +0806</lastBuildDate><pubDate>Sat, 10 Apr 2021 06:34:53 +0806</pubDate><item><title>我是如何用 Maverick来搭建自己的博客？</title><link>/leviyan-blogs/archives/how-to-build-my-blog-with-Maverick/</link><description>&lt;p&gt;最近一次的更新日期：2021-02-16 20:42:10&lt;/p&gt;&lt;!--more--&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>树下躲雨要撑伞</title><link>/leviyan-blogs/</link><description>一个现实的理想主义者</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>/leviyan-blogs/logo.png</url><title>树下躲雨要撑伞</title><link>/leviyan-blogs/</link></image><language>zh-CN</language><lastBuildDate>Sat, 10 Apr 2021 06:42:57 +0806</lastBuildDate><pubDate>Sat, 10 Apr 2021 06:42:57 +0806</pubDate><item><title>我是如何用 Maverick来搭建自己的博客？</title><link>/leviyan-blogs/archives/how-to-build-my-blog-with-Maverick/</link><description>&lt;p&gt;最近一次的更新日期：2021-02-16 20:42:10&lt;/p&gt;&lt;!--more--&gt;
 &lt;p&gt;参考文章&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href="https://sspai.com/post/58013"&gt;用 GitHub 搭建静态博客太繁琐？用这个小工具实现「傻瓜式」发布&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/AlanDecode/Blog-With-GitHub-Boilerplate"&gt;Blog-With-GitHub-Boilerplate&lt;/a&gt;（这是博客文章《完全用 GitHub 写博客》所提出流程的示例仓库。）&lt;/li&gt;
@@ -98,7 +98,7 @@ git submodule add -b latest https://github.com/AlanDecode/Maverick-Theme-Galileo
 &lt;li&gt;&lt;p&gt;元数据使用的数据格式是YAML，注意使用规则——空格之类的。&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;更多详细的要求，看&lt;a href="https://github.com/AlanDecode/Maverick"&gt;这里&lt;/a&gt;。&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description><author>leviyanx@gmail.com</author><guid isPermaLink="true">/leviyan-blogs/archives/how-to-build-my-blog-with-Maverick/</guid><pubDate>Thu, 04 Feb 2021 23:13:55 +0806</pubDate></item><item><title>与我交流的原则</title><link>/leviyan-blogs/archives/principles-of-communicating-with-me/</link><description>&lt;p&gt;最近一次的更新日期：2021-03-28 17:12:00&lt;/p&gt;&lt;!--more--&gt;
+</description><author>leviyanx@gmail.com</author><guid isPermaLink="true">/leviyan-blogs/archives/how-to-build-my-blog-with-Maverick/</guid><pubDate>Thu, 04 Feb 2021 23:13:55 +0806</pubDate></item><item><title>与我交流的原则</title><link>/leviyan-blogs/archives/principles-of-communicating-with-me/</link><description>&lt;p&gt;最近一次的更新日期：2021-04-10 14:39:00&lt;/p&gt;&lt;!--more--&gt;
 &lt;p&gt;如果我对原则的表达中有疏漏，十分欢迎你告知我。&lt;/p&gt;&lt;hr /&gt;
 &lt;h1&gt;哪些人需要遵守这些原则&lt;/h1&gt;
 &lt;ul&gt;
@@ -119,10 +119,10 @@ git submodule add -b latest https://github.com/AlanDecode/Maverick-Theme-Galileo
 &lt;h1&gt;违反这些原则的后果是什么&lt;/h1&gt;
 &lt;p&gt;自然是和交流有关。我会在&lt;strong&gt;空间和时间&lt;/strong&gt;上远离违反这些规则的人，距离为保证对方能够遵守这个原则的距离。&lt;/p&gt;&lt;h1&gt;名词说明&lt;/h1&gt;
 &lt;p&gt;隔离Ⅰ期：现实见面的次数限定为 1次/年。&lt;/p&gt;&lt;p&gt;隔离Ⅱ期：现实见面的次数限定为 1次/3年。&lt;/p&gt;&lt;p&gt;隔离Ⅲ期：现实见面的次数限定为 1次/10年。&lt;/p&gt;&lt;h1&gt;原则&lt;/h1&gt;
-&lt;p&gt;原则按照重要程度排序（重要的原则在前）。&lt;/p&gt;&lt;ol&gt;
+&lt;p&gt;原则按照&lt;strong&gt;重要程度&lt;/strong&gt;排序（重要的原则在前）。&lt;/p&gt;&lt;ol&gt;
 &lt;li&gt;&lt;p&gt;禁在能让我接触到烟味的距离范围内抽烟。&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;次数限定：一次。&lt;ul&gt;
-&lt;li&gt;超过一次，进入隔离Ⅰ区。&lt;/li&gt;
+&lt;li&gt;超过一次，进入隔离Ⅰ期。&lt;/li&gt;
 &lt;li&gt;...&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -133,7 +133,7 @@ git submodule add -b latest https://github.com/AlanDecode/Maverick-Theme-Galileo
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;禁肢体暴力。&lt;/p&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;肢体暴力的定义是，任何让我感到&lt;strong&gt;疼痛&lt;/strong&gt;的肢体接触或者带有恶意攻击倾向的肢体接触（如：击打），肢体接触包括工具与肢体的接触。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;肢体暴力的定义是，任何让我感到&lt;strong&gt;疼痛&lt;/strong&gt;的肢体接触或者带有&lt;strong&gt;恶意攻击倾向&lt;/strong&gt;的肢体接触（如：击打），肢体接触包括工具与肢体的接触。&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;次数限定：三次。&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;超过三次，进入隔离Ⅰ期。&lt;/li&gt;
 &lt;li&gt;如隔离Ⅰ期再犯累计3次，进入隔离Ⅱ期。&lt;/li&gt;
@@ -145,8 +145,8 @@ git submodule add -b latest https://github.com/AlanDecode/Maverick-Theme-Galileo
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;允许&lt;/strong&gt;肢体暴力的特殊情况&lt;/p&gt;&lt;ul&gt;
-&lt;li&gt;我的语言或行为对你造成了==不可挽回==的==恶劣==的后果。&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;允许肢体暴力的特殊情况&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;我的语言或行为对你造成了&lt;strong&gt;不可挽回&lt;/strong&gt;的&lt;strong&gt;恶劣&lt;/strong&gt;的后果。&lt;/li&gt;
 &lt;li&gt;...&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -154,7 +154,7 @@ git submodule add -b latest https://github.com/AlanDecode/Maverick-Theme-Galileo
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;禁无意/有意/恶意打扰我睡觉。（开玩笑也属于恶意）&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;无意打扰，在6个月内，不要超过5次。&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;==允许==有意打扰的情况&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;允许有意打扰的情况&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;事关我的急事。&lt;/li&gt;
 &lt;li&gt;事关你的急事（很急），而且是非我不能解决的事。&lt;/li&gt;
 &lt;li&gt;...&lt;/li&gt;
@@ -163,7 +163,7 @@ git submodule add -b latest https://github.com/AlanDecode/Maverick-Theme-Galileo
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;禁剧透。&lt;/p&gt;&lt;ul&gt;
-&lt;li&gt;在未确认我关于某个作品的进度之前，可以提作品的名字、简介、你对与这个作品的评价/理解，但不可以提具体的情节。在确认了我的进度以后，如果我没看过且对于这个作品==明确==表示不感兴趣，那么你可以随意和我交流关于这部作品的各种内容；如果我没看过这部作品且==没有明确==表示出对这部作品的不感兴趣，那仍然不可以提作品的细节；如果我看过一部分的内容， 可以和我交流进度之内的内容（当然包括细节），不可以提进度之外的内容（除了你的评价（评价也不能包括细节））；如果我全部看完，那就没有限制啦～&lt;/li&gt;
+&lt;li&gt;在未确认我关于某个作品的进度之前，可以提作品的名字、简介、你对与这个作品的评价/理解，但不可以提具体的情节。在确认了我的进度以后，如果我没看过且对于这个作品&lt;strong&gt;明确&lt;/strong&gt;表示不感兴趣，那么你可以随意和我交流关于这部作品的各种内容；如果我没看过这部作品且&lt;strong&gt;没有明确&lt;/strong&gt;表示出对这部作品的不感兴趣，那仍然不可以提作品的细节；如果我看过一部分的内容， 可以和我交流进度之内的内容（当然包括细节），不可以提进度之外的内容（除了你的评价（评价也不能包括细节））；如果我全部看完，那就没有限制啦～&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
